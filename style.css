@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  width: 1180px;
+  margin: auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bodypage{
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0.6951155462184874) 0%, rgba(0,0,0,0.5942752100840336) 100%);
+  border-radius: 20px;
+  height: 80%;
+  width: auto;
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  height: 80px; 
+}
+
+#lime{
+  width: 200px;
+}
+
+.title{
+  color: #00DD00;
+  padding-top: 10px;
+}
+
+span{
+  display: block;
+}
+
+label{
+  font-size: 25px;
+  font-weight: 400; 
+}
+
+.nav-button{
+  text-align: center;
+  width: 1000px;
+  background-color: #00DD00;
+  padding: 10px;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.logo{
+  padding-top: 100px;
+  text-align: center;
+}
+
+.row{
+  padding-top: 20px;
+}
+
+.contenitore{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 1000px;
+  margin: auto;
+  color: #ffffff;
+}
+
+#carica1{
+  width: 40%;
+  border-radius: 5px;
+  background-color: #F5B453;
+  padding: 13px;
+}
+#carica2{
+  width: 60%;
+  border-radius: 5px;
+  background-color: #1EC31E;
+  padding: 13px;
+}
+#carica3{
+  width: 18%;
+  border-radius: 5px;
+  background-color: #BE4141;
+  padding: 13px;
+}
